@@ -1,0 +1,10 @@
+unch>
+  <node pkg="my_project" type="camera_listener" name="laser_sensor_node" output="screen">
+    <param name="sensor_param" value="param_value" />
+  </node>
+
+  <node pkg="odom_node_pkg" type="odom_node_type" name="odom_node" output="screen">
+    <param name="odom_param" value="param_value" />
+  </node>
+  
+</launch>
